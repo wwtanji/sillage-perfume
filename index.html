@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Sillage, parfums de caractère</title>
+    <meta name="description" content="Five perfumes from Sillage, a fictional perfume house: amber, rose, vetiver, neroli and iris." />
+    <meta name="theme-color" content="#0c0908" />
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://images.unsplash.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Hanken+Grotesk:wght@300..700&display=swap" rel="stylesheet" />
+    <link rel="preload" as="image" href="https://images.unsplash.com/photo-1617661338085-d1ec6a89a6d8?auto=format&fit=crop&w=1600&q=78" />
+  </head>
+  <body>
+    <header class="masthead">
+      <a class="masthead__mark" href="#top" data-scroll-link>Sillage</a>
+      <nav class="masthead__nav" aria-label="Main">
+        <a href="#collection" data-scroll-link>Collection</a>
+        <a href="#ingredients" data-scroll-link>Ingredients</a>
+        <a href="#atelier" data-scroll-link>Atelier</a>
+      </nav>
+      <a class="masthead__cta" href="#discovery" data-scroll-link>Discovery set</a>
+    </header>
+
+    <main>
+      <section class="hero" id="top" data-hero>
+        <div class="hero__media" data-hero-media>
+          <img
+            class="hero__image"
+            data-hero-image
+            src="https://images.unsplash.com/photo-1617661338085-d1ec6a89a6d8?auto=format&fit=crop&w=1600&q=78"
+            srcset="
+              https://images.unsplash.com/photo-1617661338085-d1ec6a89a6d8?auto=format&fit=crop&w=640&q=78 640w,
+              https://images.unsplash.com/photo-1617661338085-d1ec6a89a6d8?auto=format&fit=crop&w=1080&q=78 1080w,
+              https://images.unsplash.com/photo-1617661338085-d1ec6a89a6d8?auto=format&fit=crop&w=1600&q=78 1600w,
+              https://images.unsplash.com/photo-1617661338085-d1ec6a89a6d8?auto=format&fit=crop&w=2200&q=78 2200w
+            "
+            sizes="100vw"
+            alt="A slim bottle of amber liquid glowing against an orange light"
+          />
+        </div>
+        <div class="hero__copy">
+          <p class="hero__eyebrow" data-hero-part>Parfums de caractère · Paris</p>
+          <h1 class="hero__title" data-hero-title>Sillage</h1>
+          <p class="hero__lead" data-hero-part>Five perfumes made to be remembered after you have left the room.</p>
+        </div>
+        <a class="hero__cue" href="#manifesto" data-scroll-link data-hero-part>Scroll</a>
+      </section>
+
+      <section class="manifesto" id="manifesto">
+        <p class="eyebrow">The name</p>
+        <p class="manifesto__text" data-manifesto>
+          Sillage is the trail a perfume leaves in the air after someone has walked past. You never smell your own. We
+          make five, each one built to stay in a room a little longer than you do.
+        </p>
+      </section>
+
+      <section class="collection" id="collection" data-collection>
+        <header class="collection__header">
+          <p class="eyebrow">The collection</p>
+          <p class="collection__count"><span data-collection-count>01</span> / 05</p>
+        </header>
+        <div class="collection__stage" data-collection-stage></div>
+        <div class="collection__progress"><span data-collection-progress></span></div>
+      </section>
+
+      <section class="ingredients" id="ingredients" data-ingredients>
+        <div class="ingredients__track" data-ingredients-track>
+          <header class="ingredients__intro">
+            <p class="eyebrow">Raw materials</p>
+            <h2 class="section-title">Where the notes come&nbsp;from</h2>
+            <p class="ingredients__lead">Five materials we keep coming back to, and the places that grow them best.</p>
+          </header>
+        </div>
+      </section>
+
+      <section class="atelier" id="atelier">
+        <figure class="atelier__frame" data-reveal>
+          <img
+            data-parallax
+            src="https://images.unsplash.com/photo-1709662369877-187c3420cc7d?auto=format&fit=crop&w=1600&q=78"
+            srcset="
+              https://images.unsplash.com/photo-1709662369877-187c3420cc7d?auto=format&fit=crop&w=1080&q=78 1080w,
+              https://images.unsplash.com/photo-1709662369877-187c3420cc7d?auto=format&fit=crop&w=1600&q=78 1600w
+            "
+            sizes="(max-width: 900px) 100vw, 50vw"
+            alt="A gloved hand drawing perfume from a glass bottle with a pipette"
+            loading="lazy"
+          />
+        </figure>
+        <div class="atelier__copy">
+          <p class="eyebrow" data-reveal>The atelier</p>
+          <h2 class="section-title" data-reveal>Slow on purpose</h2>
+          <p class="atelier__text" data-reveal>
+            Every batch rests for six weeks before it is filtered, so the notes have time to settle into each other. We
+            fill by hand, in small runs, and number every bottle.
+          </p>
+          <dl class="atelier__facts" data-reveal>
+            <div><dt>Weeks of maceration</dt><dd>6</dd></div>
+            <div><dt>Bottles per batch</dt><dd>400</dd></div>
+            <div><dt>Perfumes, and no more</dt><dd>5</dd></div>
+          </dl>
+        </div>
+      </section>
+
+      <section class="discovery" id="discovery">
+        <figure class="discovery__frame">
+          <img
+            data-parallax
+            src="https://images.unsplash.com/photo-1640181874799-e0c766339a4b?auto=format&fit=crop&w=2200&q=78"
+            srcset="
+              https://images.unsplash.com/photo-1640181874799-e0c766339a4b?auto=format&fit=crop&w=1080&q=78 1080w,
+              https://images.unsplash.com/photo-1640181874799-e0c766339a4b?auto=format&fit=crop&w=2200&q=78 2200w
+            "
+            sizes="100vw"
+            alt="A dark bottle half in teal shadow, half in red light"
+            loading="lazy"
+          />
+        </figure>
+        <div class="discovery__copy">
+          <h2 class="discovery__title" data-reveal>Find your trail</h2>
+          <p class="discovery__text" data-reveal>All five perfumes in 2 ml vials, with a voucher for the full bottle you choose.</p>
+          <a class="button" href="#collection" data-scroll-link data-reveal>Discovery set · 35 €</a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p>Sillage is a fictional perfume house, made as a design study. Nothing here is for sale.</p>
+      <p>
+        Photography from Unsplash by Rae Wallis, Fulvio Ciccolo, Muhammad Sulyman, Masoud Nikookalam, Content Pixie, Ubaid E.
+        Alyafizi, Shubham Dhage, Nipun Haldar, Iosif Chiriluta, Jason Leung, Daniele Levis Pelusi and GKVP.
+      </p>
+    </footer>
+
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
